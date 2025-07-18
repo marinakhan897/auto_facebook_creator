@@ -96,7 +96,7 @@ service = Service(executable_path=chrome_driver_path, options=chrome_options)
 driver = webdriver.Chrome(service=service)
 
 # Navigate to the website
-driver.get("https://www.fakemailgenerator.com/")
+driver.get("https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook&ved=2ahUKEwjUo_-njsaOAxXQ0wIHHS0-AZcQFnoECAsQAQ&usg=AOvVaw2FL44I7Ba2xO_S-4IkbBijhttpsS-4IkbBij")
 
 driver.execute_script("window.stop();")
 
